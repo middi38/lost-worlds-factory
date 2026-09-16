@@ -40,12 +40,31 @@ def media_duration(path):
 
 
 # ---------- 1) SESLENDIRME ----------
-async def make_voice(text, voice, rate, out):
-    if OFFLINE:
-        secs = max(2.0, len(text.split()) * 0.4)
-        run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"sine=frequency=220:duration={secs}",
-             "-q:a", "4", out])
-        return
+_KOKORO = {}
+
+
+def kokoro_voice(text, voice, speed, out):
+    """Kokoro: ucretsiz, acik kaynak, cok dogal ses. CPU'da calisir."""
+    import numpy as np
+    import soundfile as sf
+    from kokoro import KPipeline
+    lang = voice[0]  # 'a' = Amerikan, 'b' = Ingiliz
+    if lang not in _KOKORO:
+        _KOKORO[lang] = KPipeline(lang_code=lang, repo_id="hexgrad/Kokoro-82M")
+    parts = []
+    for res in _KOKORO[lang](text, voice=voice, speed=speed):
+        audio = getattr(res, "audio", None)
+        if audio is None:
+            audio = res[2]
+        if hasattr(audio, "cpu"):
+            audio = audio.cpu().numpy()
+        parts.append(np.asarray(audio, dtype="float32"))
+    if not parts:
+        raise RuntimeError("Kokoro ses uretmedi")
+    sf.write(str(out), np.concatenate(parts), 24000)
+
+
+async def edge_voice(text, voice, rate, out):
     import edge_tts
     for attempt in range(5):
         try:
@@ -53,22 +72,35 @@ async def make_voice(text, voice, rate, out):
             if out.exists() and out.stat().st_size > 1000:
                 return
         except Exception as e:
-            log(f"Seslendirme hatasi ({attempt + 1}/5): {e}")
+            log(f"edge-tts hatasi ({attempt + 1}/5): {e}")
         await asyncio.sleep(5 * (attempt + 1))
     raise RuntimeError("Seslendirme 5 denemede basarisiz oldu.")
 
 
-# ---------- 2) AI GORSEL ----------
-def fetch_image(prompt, w, h, seed, out, token):
+async def make_voice(text, spec, base):
+    """Ses dosyasinin yolunu dondurur."""
     if OFFLINE:
-        return False
-    q = urllib.parse.quote(prompt, safe="")
-    url = (f"https://image.pollinations.ai/prompt/{q}"
-           f"?width={w}&height={h}&seed={seed}&model=flux&nologo=true")
-    headers = {"User-Agent": "lost-worlds-factory/1.0"}
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
-    for attempt in range(6):
+        out = base.with_suffix(".mp3")
+        secs = max(2.0, len(text.split()) * 0.4)
+        run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"sine=frequency=220:duration={secs}",
+             "-q:a", "4", out])
+        return out
+    if spec.get("voice_engine", "kokoro") == "kokoro":
+        out = base.with_suffix(".wav")
+        try:
+            kokoro_voice(text, spec.get("voice", "af_heart"), float(spec.get("speed", 0.95)), out)
+            return out
+        except Exception as e:
+            log(f"UYARI: Kokoro calismadi, edge-tts'e geciliyor: {e}")
+    out = base.with_suffix(".mp3")
+    await edge_voice(text, spec.get("edge_voice", "en-US-AndrewMultilingualNeural"),
+                     spec.get("rate", "-5%"), out)
+    return out
+
+
+# ---------- 2) AI GORSEL ----------
+def _download(url, headers, tries, out, wait_base):
+    for attempt in range(tries):
         try:
             req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=180) as r:
@@ -79,9 +111,31 @@ def fetch_image(prompt, w, h, seed, out, token):
                 return True
             log(f"Beklenmeyen gorsel yaniti: {ctype}, {len(data)} bayt")
         except Exception as e:
-            log(f"Gorsel hatasi ({attempt + 1}/6): {e}")
-        time.sleep(20 * (attempt + 1))
+            log(f"Gorsel hatasi ({attempt + 1}/{tries}): {e}")
+        time.sleep(wait_base * (attempt + 1))
     return False
+
+
+_ANON_LAST = [0.0]
+
+
+def fetch_image(prompt, w, h, seed, out, token):
+    if OFFLINE:
+        return False
+    q = urllib.parse.quote(prompt, safe="")
+    params = f"width={w}&height={h}&seed={seed}&model=flux&nologo=true"
+    ua = {"User-Agent": "lost-worlds-factory/2.0"}
+    if token:  # kayitli hesap: filigransiz
+        url = f"https://gen.pollinations.ai/image/{q}?{params}"
+        if _download(url, {**ua, "Authorization": f"Bearer {token}"}, 3, out, 10):
+            return True
+        log("UYARI: Anahtarli istek basarisiz, anonim moda geciliyor (filigran olabilir).")
+    wait = 16 - (time.time() - _ANON_LAST[0])
+    if _ANON_LAST[0] and wait > 0:
+        time.sleep(wait)  # anonim limit: ~15 sn'de 1 gorsel
+    _ANON_LAST[0] = time.time()
+    url = f"https://image.pollinations.ai/prompt/{q}?{params}"
+    return _download(url, ua, 5, out, 20)
 
 
 def placeholder_image(w, h, out):
@@ -102,7 +156,9 @@ def make_clip(img, audio, dur, w, h, idx, out):
     z, x, y = moves[idx % len(moves)]
     vf = (f"[0:v]scale={w * 2}:{h * 2}:force_original_aspect_ratio=increase,"
           f"crop={w * 2}:{h * 2},"
+          f"eq=contrast=1.07:saturation=0.92:gamma=0.97,unsharp=5:5:0.6,"
           f"zoompan=z='{z}':x='{x}':y='{y}':d={F}:s={w}x{h}:fps={FPS},"
+          f"vignette=PI/5,noise=alls=7:allf=t+u,"
           f"format=yuv420p[v];"
           f"[1:a]apad=pad_dur={PAD},aresample=44100[a]")
     run(["ffmpeg", "-y", "-i", img, "-i", audio, "-filter_complex", vf,
@@ -179,8 +235,6 @@ async def main():
     outdir = Path("output")
     outdir.mkdir(exist_ok=True)
 
-    voice = spec.get("voice", "en-US-ChristopherNeural")
-    rate = spec.get("rate", "-5%")
     style = spec.get("image_style", "")
     seed = int(spec.get("seed", 1000))
     token = os.environ.get("POLLINATIONS_TOKEN", "").strip()
@@ -188,23 +242,16 @@ async def main():
 
     events, clips, t = [], [], 0.0
     first_scene_end = 0.0
-    last_image_request = 0.0
 
     for i, sc in enumerate(scenes):
         log(f"\n=== Sahne {i + 1}/{len(scenes)} ===")
-        audio = work / f"a{i:03d}.mp3"
         img = work / f"i{i:03d}.jpg"
         clip = work / f"c{i:03d}.mp4"
 
-        await make_voice(sc["text"], voice, rate, audio)
+        audio = await make_voice(sc["text"], spec, work / f"a{i:03d}")
         ad = media_duration(audio)
 
         prompt = f"{sc['image']}, {style}" if style else sc["image"]
-        if not token and last_image_request:
-            wait = 16 - (time.time() - last_image_request)
-            if wait > 0:
-                time.sleep(wait)  # ucretsiz limit: ~15 sn'de 1 gorsel
-        last_image_request = time.time()
         if not fetch_image(prompt, w, h, seed + i, img, token):
             log("UYARI: gorsel alinamadi, duz arka plan kullaniliyor.")
             placeholder_image(w, h, img)

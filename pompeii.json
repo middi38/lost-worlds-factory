@@ -15,51 +15,54 @@
     "time travel",
     "roman empire"
   ],
-  "voice": "en-US-ChristopherNeural",
+  "voice_engine": "kokoro",
+  "voice": "af_heart",
+  "speed": 0.95,
+  "edge_voice": "en-US-AndrewMultilingualNeural",
   "rate": "-5%",
   "seed": 7900,
   "music_volume": 0.12,
-  "image_style": "photorealistic, cinematic film still, ancient Roman city of Pompeii in 79 AD, historically accurate, warm natural light, highly detailed, 35mm, no text, no watermark",
+  "image_style": "cinematic documentary film still, shot on ARRI Alexa with a 35mm lens, soft natural light, realistic weathered textures, muted earthy color palette, shallow depth of field, subtle film grain, historically accurate 1st century Roman details, ultra detailed, no text, no logo, no watermark",
   "scenes": [
     {
       "text": "You wake up in Pompeii, 79 AD. In twenty-four hours, this city will be buried alive.",
-      "image": "first-person view waking up in a small Roman bedroom, painted red fresco walls, wooden bed with wool blanket, morning sunlight through a small high window"
+      "image": "over-the-shoulder view of a person sitting up in a small Pompeii bedroom at dawn, red and ochre fresco walls, simple wooden bed with rough wool blanket, golden sunlight through a small high window, dust in the air"
     },
     {
       "text": "Bakers pull round loaves from stone ovens. Archaeologists will find loaves like these, turned to charcoal, two thousand years later.",
-      "image": "Roman bakery interior, large brick dome oven, round bread loaves scored into eight segments, lava stone grain mills, baker in simple tunic"
+      "image": "interior of an ancient Roman bakery in Pompeii, glowing brick dome oven, round bread loaves divided into eight segments on a wooden board, grey lava stone grain mills, baker in a plain linen tunic dusted with flour"
     },
     {
       "text": "You grab lunch at a street counter. Hot food served from jars built into the stone. Roman fast food.",
-      "image": "Roman thermopolium street food counter, large terracotta jars set into a marble countertop, colorful fresco on the counter, customers in tunics"
+      "image": "ancient Roman street food counter in Pompeii, large terracotta jars sunk into a marble counter, faded painted fresco of animals on the counter front, locals in tunics eating, warm midday light"
     },
     {
       "text": "The walls are covered in painted slogans and graffiti. People here write on everything.",
-      "image": "narrow Roman street with stepping stones, walls covered in red painted Latin election slogans and scratched graffiti, shops with wooden shutters"
+      "image": "narrow stone-paved street in Pompeii with raised stepping stones, walls covered in red painted Latin slogans and scratched graffiti, wooden shop shutters, people walking, late morning light"
     },
     {
       "text": "Some buildings still show cracks from a massive earthquake years ago.",
-      "image": "Roman workers on wooden scaffolding repairing a cracked brick and plaster building, mortar and tools, busy street below"
+      "image": "Roman builders on wooden scaffolding repairing a large crack in a plastered brick wall in Pompeii, buckets of mortar, rope and pulleys, busy street below"
     },
     {
       "text": "Then the ground trembles. Nobody panics. Small quakes happen here all the time.",
-      "image": "Roman forum with columns and citizens calmly continuing their day, slight dust falling from a column, merchants at stalls"
+      "image": "the forum of Pompeii with tall stone columns, citizens and merchants going about their day, a thin trickle of dust falling from a column, calm atmosphere"
     },
     {
       "text": "Above the city, Vesuvius is green and covered in vineyards. Almost no one sees it as a threat.",
-      "image": "wide view of lush green Mount Vesuvius covered in vineyards rising behind the Roman city of Pompeii, blue sky, peaceful afternoon"
+      "image": "wide landscape of green Mount Vesuvius covered in terraced vineyards rising behind the red roofs of Pompeii, clear blue sky, peaceful afternoon, grape harvest workers in the foreground"
     },
     {
       "text": "That night, you fall asleep like everyone else.",
-      "image": "dark Roman bedroom at night lit by a single small oil lamp, person sleeping under a wool blanket, calm and quiet, deep shadows"
+      "image": "dark Roman bedroom at night lit by a single small bronze oil lamp, a person asleep under a wool blanket, deep warm shadows, quiet and peaceful"
     },
     {
       "text": "Tomorrow, around midday, the mountain will explode. Ash and stones will rain down for hours.",
-      "image": "massive dark eruption column rising from Mount Vesuvius above Pompeii, ash cloud spreading across the sky, terrified people in the street looking up"
+      "image": "enormous dark eruption column rising from Mount Vesuvius high above Pompeii, ash cloud spreading across the sky, people in the street below staring up in fear"
     },
     {
       "text": "Most will run. Those who stay will be frozen in time. Would you have left?",
-      "image": "abandoned Pompeii street covered in grey ash and pumice under a dark orange sky, eerie silence, dramatic lighting"
+      "image": "empty street of Pompeii buried under grey ash and pumice stones, dim orange sky, eerie silence, abandoned cart and fallen amphora"
     }
   ]
 }
