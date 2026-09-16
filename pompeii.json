@@ -1,0 +1,65 @@
+{
+  "format": "short",
+  "title": "POV: You Wake Up in Pompeii, 24 Hours Before the Eruption #shorts",
+  "hook_text": "POV: YOU WAKE UP IN POMPEII",
+  "description": "It's 79 AD. You wake up in Pompeii, a busy Roman city at the foot of Mount Vesuvius. In about 24 hours, it will be buried under ash. Would you have left in time?\n\nImages are AI-generated recreations based on archaeological findings.\n\n#pompeii #history #ancientrome #pov #lostworlds",
+  "tags": [
+    "pompeii",
+    "pov history",
+    "ancient rome",
+    "vesuvius",
+    "79 AD",
+    "lost worlds",
+    "history shorts",
+    "ai history",
+    "time travel",
+    "roman empire"
+  ],
+  "voice": "en-US-ChristopherNeural",
+  "rate": "-5%",
+  "seed": 7900,
+  "music_volume": 0.12,
+  "image_style": "photorealistic, cinematic film still, ancient Roman city of Pompeii in 79 AD, historically accurate, warm natural light, highly detailed, 35mm, no text, no watermark",
+  "scenes": [
+    {
+      "text": "You wake up in Pompeii, 79 AD. In twenty-four hours, this city will be buried alive.",
+      "image": "first-person view waking up in a small Roman bedroom, painted red fresco walls, wooden bed with wool blanket, morning sunlight through a small high window"
+    },
+    {
+      "text": "Bakers pull round loaves from stone ovens. Archaeologists will find loaves like these, turned to charcoal, two thousand years later.",
+      "image": "Roman bakery interior, large brick dome oven, round bread loaves scored into eight segments, lava stone grain mills, baker in simple tunic"
+    },
+    {
+      "text": "You grab lunch at a street counter. Hot food served from jars built into the stone. Roman fast food.",
+      "image": "Roman thermopolium street food counter, large terracotta jars set into a marble countertop, colorful fresco on the counter, customers in tunics"
+    },
+    {
+      "text": "The walls are covered in painted slogans and graffiti. People here write on everything.",
+      "image": "narrow Roman street with stepping stones, walls covered in red painted Latin election slogans and scratched graffiti, shops with wooden shutters"
+    },
+    {
+      "text": "Some buildings still show cracks from a massive earthquake years ago.",
+      "image": "Roman workers on wooden scaffolding repairing a cracked brick and plaster building, mortar and tools, busy street below"
+    },
+    {
+      "text": "Then the ground trembles. Nobody panics. Small quakes happen here all the time.",
+      "image": "Roman forum with columns and citizens calmly continuing their day, slight dust falling from a column, merchants at stalls"
+    },
+    {
+      "text": "Above the city, Vesuvius is green and covered in vineyards. Almost no one sees it as a threat.",
+      "image": "wide view of lush green Mount Vesuvius covered in vineyards rising behind the Roman city of Pompeii, blue sky, peaceful afternoon"
+    },
+    {
+      "text": "That night, you fall asleep like everyone else.",
+      "image": "dark Roman bedroom at night lit by a single small oil lamp, person sleeping under a wool blanket, calm and quiet, deep shadows"
+    },
+    {
+      "text": "Tomorrow, around midday, the mountain will explode. Ash and stones will rain down for hours.",
+      "image": "massive dark eruption column rising from Mount Vesuvius above Pompeii, ash cloud spreading across the sky, terrified people in the street looking up"
+    },
+    {
+      "text": "Most will run. Those who stay will be frozen in time. Would you have left?",
+      "image": "abandoned Pompeii street covered in grey ash and pumice under a dark orange sky, eerie silence, dramatic lighting"
+    }
+  ]
+}
