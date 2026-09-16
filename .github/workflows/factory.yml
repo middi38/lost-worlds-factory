@@ -17,11 +17,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Ses modelini onbellekten al
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: kokoro-v1
       - name: Araclari kur
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg fonts-dejavu-core
-          pip install edge-tts
+          sudo apt-get install -y ffmpeg fonts-dejavu-core espeak-ng
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install "kokoro>=0.9.4" soundfile edge-tts
       - name: Videoyu uret
         env:
           POLLINATIONS_TOKEN: ${{ secrets.POLLINATIONS_TOKEN }}
