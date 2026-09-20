@@ -1,0 +1,60 @@
+{
+  "format": "short",
+  "title": "POV: You Wake Up in Hattusa — Capital of the Hittite Empire #shorts",
+  "hook_text": "THIS BRONZE AGE CAPITAL CONTROLLED AN EMPIRE",
+  "description": "Step into Hattusa, reconstructed as a cinematic historical short using archaeological evidence and cautious interpretation. Some details remain debated or uncertain.\n\n#history #archaeology #lostworlds #ancienthistory #shorts",
+  "tags": [
+    "Hattusa",
+    "lost worlds",
+    "archaeology",
+    "ancient history",
+    "history shorts",
+    "AI history"
+  ],
+  "voice_engine": "kokoro",
+  "voice": "af_heart",
+  "speed": 0.97,
+  "edge_voice": "en-US-AndrewMultilingualNeural",
+  "rate": "-3%",
+  "seed": 12954,
+  "music_volume": 0.1,
+  "image_style": "cinematic archaeological documentary film still, photorealistic, historically plausible reconstruction, natural skin texture, authentic materials and tools, atmospheric natural light, 35mm lens, realistic scale, no modern objects, no fantasy, no text, no logo, no watermark",
+  "scenes": [
+    {
+      "text": "You approach massive gates protecting Hattusa in central Anatolia.",
+      "image": "Hattusa Bronze Age capital, fortification walls and gate, populated"
+    },
+    {
+      "text": "Inside, roads climb between temples, administrative buildings, workshops, and homes.",
+      "image": "Hittite capital streets, stone foundations, mudbrick upper walls, people"
+    },
+    {
+      "text": "Scribes press cuneiform signs into clay tablets recording diplomacy, law, and administration.",
+      "image": "Hittite scribes writing cuneiform tablets, palace archive setting"
+    },
+    {
+      "text": "Kings negotiate with rival powers in a world of shifting Bronze Age alliances.",
+      "image": "formal Hittite diplomatic audience, historically plausible clothing and furniture"
+    },
+    {
+      "text": "Fortifications stretch across rugged terrain, including monumental gates decorated with stone figures.",
+      "image": "Lion Gate or Sphinx Gate inspired Hittite fortifications, realistic"
+    },
+    {
+      "text": "Temples serve a religious world filled with deities from across the empire.",
+      "image": "Hittite temple courtyard, offerings, non-fantasy documentary reconstruction"
+    },
+    {
+      "text": "Around the early twelfth century BCE, the imperial system collapses and the capital is abandoned.",
+      "image": "late Bronze Age Hattusa becoming deserted, smoke distant but no sensational destruction"
+    },
+    {
+      "text": "Thousands of tablets later help scholars reconstruct Hittite history and international relations.",
+      "image": "archaeological cuneiform tablets and excavated Hattusa ruins"
+    },
+    {
+      "text": "Its archives preserved voices from a vanished Bronze Age superpower. Which tablet would you read first?",
+      "image": "cinematic Hattusa archive room with rows of clay tablets"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "format": "short",
+  "title": "POV: You Wake Up in Nan Madol — The Monumental Islets of Micronesia #shorts",
+  "hook_text": "A CITY WAS BUILT ON ARTIFICIAL ISLETS",
+  "description": "Step into Nan Madol, reconstructed as a cinematic historical short using archaeological evidence and cautious interpretation. Some details remain debated or uncertain.\n\n#history #archaeology #lostworlds #ancienthistory #shorts",
+  "tags": [
+    "Nan Madol",
+    "lost worlds",
+    "archaeology",
+    "ancient history",
+    "history shorts",
+    "AI history"
+  ],
+  "voice_engine": "kokoro",
+  "voice": "af_heart",
+  "speed": 0.97,
+  "edge_voice": "en-US-AndrewMultilingualNeural",
+  "rate": "-3%",
+  "seed": 15079,
+  "music_volume": 0.1,
+  "image_style": "cinematic archaeological documentary film still, photorealistic, historically plausible reconstruction, natural skin texture, authentic materials and tools, atmospheric natural light, 35mm lens, realistic scale, no modern objects, no fantasy, no text, no logo, no watermark",
+  "scenes": [
+    {
+      "text": "You arrive by canoe at a ceremonial center built across small artificial islets.",
+      "image": "Nan Madol in active period, canoe approaching basalt-walled islets, tropical lagoon"
+    },
+    {
+      "text": "Channels of seawater separate compounds built from enormous basalt columns and coral fill.",
+      "image": "water channels between basalt architecture, realistic Pohnpei environment"
+    },
+    {
+      "text": "People move between islets by canoe, carrying food, tools, and offerings.",
+      "image": "Micronesian people in canoes, everyday ceremonial center activity"
+    },
+    {
+      "text": "The complex serves the rulers of the Saudeleur dynasty and their political and religious system.",
+      "image": "elite ceremonial gathering in basalt compound, historically cautious reconstruction"
+    },
+    {
+      "text": "Building here requires moving heavy stone through a wet island landscape.",
+      "image": "workers transporting basalt columns by plausible coordinated labor near shore"
+    },
+    {
+      "text": "Walls rise in crisscrossed courses, creating monumental spaces beside the lagoon.",
+      "image": "close architectural view of stacked prismatic basalt walls"
+    },
+    {
+      "text": "Later political change ends the Saudeleur era, but the stone compounds remain.",
+      "image": "quiet abandoned basalt compound reclaimed by tropical vegetation"
+    },
+    {
+      "text": "Archaeology preserves evidence of a distinctive Pacific monumental tradition.",
+      "image": "archaeological survey of Nan Madol ruins and channels, realistic"
+    },
+    {
+      "text": "Even today, its geometry across the water feels extraordinary. How would you navigate it?",
+      "image": "aerial cinematic reconstruction of Nan Madol islets and canals"
+    }
+  ]
+}

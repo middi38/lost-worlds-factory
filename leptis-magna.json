@@ -1,0 +1,60 @@
+{
+  "format": "short",
+  "title": "POV: You Wake Up in Leptis Magna — A Roman City on the North African Coast #shorts",
+  "hook_text": "THIS ROMAN CITY FACED THE SAHARA AND THE SEA",
+  "description": "Step into Leptis Magna, reconstructed as a cinematic historical short using archaeological evidence and cautious interpretation. Some details remain debated or uncertain.\n\n#history #archaeology #lostworlds #ancienthistory #shorts",
+  "tags": [
+    "Leptis Magna",
+    "lost worlds",
+    "archaeology",
+    "ancient history",
+    "history shorts",
+    "AI history"
+  ],
+  "voice_engine": "kokoro",
+  "voice": "af_heart",
+  "speed": 0.97,
+  "edge_voice": "en-US-AndrewMultilingualNeural",
+  "rate": "-3%",
+  "seed": 20706,
+  "music_volume": 0.1,
+  "image_style": "cinematic archaeological documentary film still, photorealistic, historically plausible reconstruction, natural skin texture, authentic materials and tools, atmospheric natural light, 35mm lens, realistic scale, no modern objects, no fantasy, no text, no logo, no watermark",
+  "scenes": [
+    {
+      "text": "You enter Leptis Magna when its harbor and monumental streets are crowded with travelers.",
+      "image": "Roman Leptis Magna at height, North African people, harbor and colonnaded street"
+    },
+    {
+      "text": "The city grows wealthy through regional agriculture and Mediterranean trade.",
+      "image": "Roman North African market, olive oil amphorae, merchants, realistic"
+    },
+    {
+      "text": "Grand public buildings reshape the center under the emperor Septimius Severus, who was born here.",
+      "image": "Severan forum and basilica active reconstruction, crowds, historically plausible"
+    },
+    {
+      "text": "Baths, markets, temples, and entertainment spaces structure public life.",
+      "image": "Hadrianic baths inspired Roman public scene, no nudity focus, documentary"
+    },
+    {
+      "text": "Ships use a harbor linked to a coastline that demands constant maintenance.",
+      "image": "ancient harbor, merchant ships, silt and quays, realistic"
+    },
+    {
+      "text": "Over centuries, political instability, economic change, and environmental conditions alter the city.",
+      "image": "late antique Leptis Magna with reduced activity, sand beginning to accumulate"
+    },
+    {
+      "text": "Parts of the settlement are eventually abandoned and sand helps cover its remains.",
+      "image": "desert sand drifting through empty colonnaded street, cinematic"
+    },
+    {
+      "text": "Excavation later exposes exceptionally preserved Roman architecture.",
+      "image": "archaeological ruins of Leptis Magna, columns and forum, realistic"
+    },
+    {
+      "text": "A monumental Roman city survived in the sand. What would its harbor have looked like at sunrise?",
+      "image": "sunrise reconstruction over Leptis Magna harbor and city"
+    }
+  ]
+}

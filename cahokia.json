@@ -1,0 +1,60 @@
+{
+  "format": "short",
+  "title": "POV: You Wake Up in Cahokia — North America’s Great Pre-Columbian City #shorts",
+  "hook_text": "THIS CITY WAS BIGGER THAN YOU THINK",
+  "description": "Step into Cahokia, reconstructed as a cinematic historical short using archaeological evidence and cautious interpretation. Some details remain debated or uncertain.\n\n#history #archaeology #lostworlds #ancienthistory #shorts",
+  "tags": [
+    "Cahokia",
+    "lost worlds",
+    "archaeology",
+    "ancient history",
+    "history shorts",
+    "AI history"
+  ],
+  "voice_engine": "kokoro",
+  "voice": "af_heart",
+  "speed": 0.97,
+  "edge_voice": "en-US-AndrewMultilingualNeural",
+  "rate": "-3%",
+  "seed": 12240,
+  "music_volume": 0.1,
+  "image_style": "cinematic archaeological documentary film still, photorealistic, historically plausible reconstruction, natural skin texture, authentic materials and tools, atmospheric natural light, 35mm lens, realistic scale, no modern objects, no fantasy, no text, no logo, no watermark",
+  "scenes": [
+    {
+      "text": "You wake beside a vast city of earthen mounds near the Mississippi around nine hundred years ago.",
+      "image": "Cahokia settlement at dawn, monumental earthen mounds, wooden houses, plazas"
+    },
+    {
+      "text": "Thousands of people live here, connected by neighborhoods, plazas, farms, and trade.",
+      "image": "dense Mississippian settlement, families, maize, paths, historically plausible clothing"
+    },
+    {
+      "text": "At the center, a huge platform mound rises above the surrounding landscape.",
+      "image": "Monks Mound scale view, wooden structures on summit, documentary realism"
+    },
+    {
+      "text": "Craft workers shape stone, shell, copper, and pottery while food moves through busy public spaces.",
+      "image": "Mississippian craft and market activity, shell beads, pottery, copper plates"
+    },
+    {
+      "text": "Wooden posts mark a great circular arrangement used to track the changing seasons.",
+      "image": "reconstructed Woodhenge-like timber circle at sunrise, people observing horizon"
+    },
+    {
+      "text": "Cahokia is part of wide networks linking communities across much of North America.",
+      "image": "river trade canoes and goods, Mississippi floodplain, realistic"
+    },
+    {
+      "text": "Over generations, the city changes and its population declines for reasons scholars still debate.",
+      "image": "quieter settlement, abandoned structures, environmental stress without disaster fantasy"
+    },
+    {
+      "text": "Centuries later, its earthworks remain as evidence of a complex urban society.",
+      "image": "archaeological landscape of preserved mounds, mist, no modern skyline"
+    },
+    {
+      "text": "The skyline was made of earth and timber, but its scale was extraordinary. Could you have imagined it?",
+      "image": "grand aerial reconstruction of Cahokia and Mississippi floodplain, photorealistic"
+    }
+  ]
+}

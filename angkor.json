@@ -1,0 +1,60 @@
+{
+  "format": "short",
+  "title": "POV: You Wake Up in Angkor — The Hydraulic Metropolis of the Khmer Empire #shorts",
+  "hook_text": "THIS CITY MANAGED WATER ON A MASSIVE SCALE",
+  "description": "Step into Angkor, reconstructed as a cinematic historical short using archaeological evidence and cautious interpretation. Some details remain debated or uncertain.\n\n#history #archaeology #lostworlds #ancienthistory #shorts",
+  "tags": [
+    "Angkor",
+    "lost worlds",
+    "archaeology",
+    "ancient history",
+    "history shorts",
+    "AI history"
+  ],
+  "voice_engine": "kokoro",
+  "voice": "af_heart",
+  "speed": 0.97,
+  "edge_voice": "en-US-AndrewMultilingualNeural",
+  "rate": "-3%",
+  "seed": 10914,
+  "music_volume": 0.1,
+  "image_style": "cinematic archaeological documentary film still, photorealistic, historically plausible reconstruction, natural skin texture, authentic materials and tools, atmospheric natural light, 35mm lens, realistic scale, no modern objects, no fantasy, no text, no logo, no watermark",
+  "scenes": [
+    {
+      "text": "You arrive at Angkor when the Khmer capital region is filled with temples, roads, reservoirs, and communities.",
+      "image": "medieval Angkor landscape, temple towers, houses, roads, reservoirs, populated"
+    },
+    {
+      "text": "Beyond famous stone monuments, a vast low-density urban landscape spreads through forests and fields.",
+      "image": "wide Khmer urban landscape with wooden homes, rice fields, canals and temples"
+    },
+    {
+      "text": "Engineered canals and enormous reservoirs help move and manage water across the region.",
+      "image": "Khmer waterworks, canal gates, baray reservoir, workers, realistic"
+    },
+    {
+      "text": "Markets, farms, religious centers, and royal institutions connect people across the landscape.",
+      "image": "Khmer market and daily life near temple, historically plausible clothing"
+    },
+    {
+      "text": "Stone inscriptions and monumental architecture reflect changing rulers and religious traditions.",
+      "image": "stone inscription carving and temple ceremony, respectful"
+    },
+    {
+      "text": "The water network is powerful but must cope with variable monsoon conditions.",
+      "image": "heavy monsoon over canals and reservoirs, stressed embankment, realistic"
+    },
+    {
+      "text": "Political shifts, conflict, and environmental pressures contribute to major changes in the urban system.",
+      "image": "changing Angkor settlement, partly neglected canal, no simplistic single-cause disaster"
+    },
+    {
+      "text": "Archaeology and remote sensing reveal traces of roads, canals, and settlement beneath vegetation.",
+      "image": "lidar-inspired conceptual landscape but rendered as realistic archaeological survey, no text"
+    },
+    {
+      "text": "The temples were only part of the city. Could you navigate the landscape beyond them?",
+      "image": "aerial cinematic reconstruction of Angkor metropolitan landscape at sunrise"
+    }
+  ]
+}

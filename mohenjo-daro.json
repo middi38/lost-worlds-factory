@@ -1,0 +1,60 @@
+{
+  "format": "short",
+  "title": "POV: You Wake Up in Mohenjo-daro — An Indus City of Brick and Water #shorts",
+  "hook_text": "THIS ANCIENT CITY HAD REMARKABLE URBAN INFRASTRUCTURE",
+  "description": "Step into Mohenjo-daro, reconstructed as a cinematic historical short using archaeological evidence and cautious interpretation. Some details remain debated or uncertain.\n\n#history #archaeology #lostworlds #ancienthistory #shorts",
+  "tags": [
+    "Mohenjo-daro",
+    "lost worlds",
+    "archaeology",
+    "ancient history",
+    "history shorts",
+    "AI history"
+  ],
+  "voice_engine": "kokoro",
+  "voice": "af_heart",
+  "speed": 0.97,
+  "edge_voice": "en-US-AndrewMultilingualNeural",
+  "rate": "-3%",
+  "seed": 20723,
+  "music_volume": 0.1,
+  "image_style": "cinematic archaeological documentary film still, photorealistic, historically plausible reconstruction, natural skin texture, authentic materials and tools, atmospheric natural light, 35mm lens, realistic scale, no modern objects, no fantasy, no text, no logo, no watermark",
+  "scenes": [
+    {
+      "text": "You walk into Mohenjo-daro more than four thousand years ago.",
+      "image": "Indus civilization city, baked brick streets, people, realistic Bronze Age South Asia"
+    },
+    {
+      "text": "Straight streets run between dense brick buildings in carefully organized neighborhoods.",
+      "image": "street-level Mohenjo-daro reconstruction, brick houses and lanes"
+    },
+    {
+      "text": "Wells and covered drains show how water and wastewater were managed across the settlement.",
+      "image": "ancient well and covered drainage system in use, documentary realism"
+    },
+    {
+      "text": "Craft workers produce beads, pottery, metal objects, and standardized weights.",
+      "image": "Indus artisans making carnelian beads, pottery, bronze and weights"
+    },
+    {
+      "text": "Merchants connect the city to wider trade networks, but its undeciphered script keeps many details uncertain.",
+      "image": "merchant goods and Indus seals, no invented readable text"
+    },
+    {
+      "text": "Large public structures include the famous Great Bath, whose exact function remains debated.",
+      "image": "Great Bath in active but cautious reconstruction, people nearby, no invented ritual certainty"
+    },
+    {
+      "text": "The city changes and declines over time as wider Indus urban systems transform.",
+      "image": "later Mohenjo-daro with quieter streets, environmental change, no invasion trope"
+    },
+    {
+      "text": "Archaeology reveals sophisticated planning while leaving major questions about politics and language unanswered.",
+      "image": "excavated brick city and artifacts, archaeological documentary"
+    },
+    {
+      "text": "Its streets are familiar, but its written voices remain unread. What would you ask its people?",
+      "image": "cinematic Indus street at dusk with seal in foreground, no text overlay"
+    }
+  ]
+}

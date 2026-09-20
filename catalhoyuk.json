@@ -1,0 +1,60 @@
+{
+  "format": "short",
+  "title": "POV: You Wake Up in Çatalhöyük — A Dense Neolithic Settlement #shorts",
+  "hook_text": "THOUSANDS LIVED HERE WITHOUT STREETS",
+  "description": "Step into Çatalhöyük, reconstructed as a cinematic historical short using archaeological evidence and cautious interpretation. Some details remain debated or uncertain.\n\n#history #archaeology #lostworlds #ancienthistory #shorts",
+  "tags": [
+    "Çatalhöyük",
+    "lost worlds",
+    "archaeology",
+    "ancient history",
+    "history shorts",
+    "AI history"
+  ],
+  "voice_engine": "kokoro",
+  "voice": "af_heart",
+  "speed": 0.97,
+  "edge_voice": "en-US-AndrewMultilingualNeural",
+  "rate": "-3%",
+  "seed": 18309,
+  "music_volume": 0.1,
+  "image_style": "cinematic archaeological documentary film still, photorealistic, historically plausible reconstruction, natural skin texture, authentic materials and tools, atmospheric natural light, 35mm lens, realistic scale, no modern objects, no fantasy, no text, no logo, no watermark",
+  "scenes": [
+    {
+      "text": "You approach a dense Neolithic settlement on the Anatolian plain.",
+      "image": "Catalhoyuk reconstruction, tightly packed mudbrick houses, Anatolian plain"
+    },
+    {
+      "text": "Homes press wall against wall, with many entrances reached from the rooftops.",
+      "image": "people moving across connected rooftops, ladders into houses, realistic"
+    },
+    {
+      "text": "Inside, families cook, work, sleep, and bury some of their dead beneath house floors.",
+      "image": "Neolithic house interior, hearth, platforms, respectful non-graphic burial context"
+    },
+    {
+      "text": "Walls are replastered repeatedly and some rooms carry paintings and modeled features.",
+      "image": "plastered interior with geometric and animal imagery, plausible reconstruction"
+    },
+    {
+      "text": "Farmers grow crops and keep animals while hunting and gathering still contribute to life.",
+      "image": "Anatolian Neolithic farming, sheep, grain, gathering, no modern tools"
+    },
+    {
+      "text": "Obsidian from volcanic regions becomes an important material for sharp tools and exchange.",
+      "image": "obsidian toolmaking and exchange, close documentary scene"
+    },
+    {
+      "text": "The settlement changes over many generations rather than following a single urban plan.",
+      "image": "layers of rebuilt mudbrick houses, archaeological stratigraphy visual"
+    },
+    {
+      "text": "Excavation reveals an unusually detailed record of household life.",
+      "image": "archaeologists uncovering mudbrick rooms and artifacts, realistic"
+    },
+    {
+      "text": "No streets, few doors at ground level, and a citylike density. Could you find your house?",
+      "image": "wide rooftop view across occupied Catalhoyuk at sunset"
+    }
+  ]
+}

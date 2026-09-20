@@ -1,0 +1,60 @@
+{
+  "format": "short",
+  "title": "POV: You Wake Up in Akrotiri — The Bronze Age Town Buried by Thera #shorts",
+  "hook_text": "A BRONZE AGE TOWN WAS SEALED IN ASH",
+  "description": "Step into Akrotiri, reconstructed as a cinematic historical short using archaeological evidence and cautious interpretation. Some details remain debated or uncertain.\n\n#history #archaeology #lostworlds #ancienthistory #shorts",
+  "tags": [
+    "Akrotiri",
+    "lost worlds",
+    "archaeology",
+    "ancient history",
+    "history shorts",
+    "AI history"
+  ],
+  "voice_engine": "kokoro",
+  "voice": "af_heart",
+  "speed": 0.97,
+  "edge_voice": "en-US-AndrewMultilingualNeural",
+  "rate": "-3%",
+  "seed": 14773,
+  "music_volume": 0.1,
+  "image_style": "cinematic archaeological documentary film still, photorealistic, historically plausible reconstruction, natural skin texture, authentic materials and tools, atmospheric natural light, 35mm lens, realistic scale, no modern objects, no fantasy, no text, no logo, no watermark",
+  "scenes": [
+    {
+      "text": "You enter Akrotiri on the island of Thera during the Bronze Age.",
+      "image": "Akrotiri Bronze Age Aegean town, multistory buildings, narrow streets, people"
+    },
+    {
+      "text": "Its houses contain painted walls, storage vessels, workshops, and carefully planned rooms.",
+      "image": "Aegean interior with fresco-inspired wall paintings, pottery and loom, no modern objects"
+    },
+    {
+      "text": "Ships connect the settlement to wider networks across the Aegean and eastern Mediterranean.",
+      "image": "Bronze Age Aegean harbor with sailing vessels and cargo"
+    },
+    {
+      "text": "Then earthquakes damage the town, warning that the volcanic landscape is changing.",
+      "image": "cracked masonry after earthquake, residents carrying belongings, restrained"
+    },
+    {
+      "text": "The great eruption of Thera sends ash and volcanic material across the island.",
+      "image": "distant massive volcanic eruption seen from coast, scientifically plausible, no fantasy"
+    },
+    {
+      "text": "Akrotiri is buried, preserving buildings and objects beneath layers of volcanic debris.",
+      "image": "town being covered by ash from distance, no bodies, documentary realism"
+    },
+    {
+      "text": "Archaeologists later uncover streets, rooms, pottery, and famous wall paintings.",
+      "image": "archaeological excavation of Akrotiri buildings and pottery, realistic"
+    },
+    {
+      "text": "The absence of discovered victims in the excavated town has raised questions about evacuation.",
+      "image": "empty ancient street with packed belongings, cautious reconstruction"
+    },
+    {
+      "text": "A catastrophe destroyed the town but preserved a window into Bronze Age life. What would you save first?",
+      "image": "cinematic preserved Akrotiri street transitioning conceptually to excavation, realistic"
+    }
+  ]
+}

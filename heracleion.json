@@ -1,0 +1,60 @@
+{
+  "format": "short",
+  "title": "POV: You Wake Up in Heracleion — Egypt’s Sunken Port City #shorts",
+  "hook_text": "THIS CITY VANISHED BENEATH THE SEA",
+  "description": "Step into Heracleion, reconstructed as a cinematic historical short using archaeological evidence and cautious interpretation. Some details remain debated or uncertain.\n\n#history #archaeology #lostworlds #ancienthistory #shorts",
+  "tags": [
+    "Heracleion",
+    "lost worlds",
+    "archaeology",
+    "ancient history",
+    "history shorts",
+    "AI history"
+  ],
+  "voice_engine": "kokoro",
+  "voice": "af_heart",
+  "speed": 0.97,
+  "edge_voice": "en-US-AndrewMultilingualNeural",
+  "rate": "-3%",
+  "seed": 17850,
+  "music_volume": 0.1,
+  "image_style": "cinematic archaeological documentary film still, photorealistic, historically plausible reconstruction, natural skin texture, authentic materials and tools, atmospheric natural light, 35mm lens, realistic scale, no modern objects, no fantasy, no text, no logo, no watermark",
+  "scenes": [
+    {
+      "text": "You arrive at Heracleion when it is still a thriving port at the mouth of the Nile.",
+      "image": "busy ancient Egyptian harbor, wooden merchant boats, temples and quays, dawn"
+    },
+    {
+      "text": "Sailors bring goods from across the Mediterranean while officials inspect cargo near the waterfront.",
+      "image": "ancient harbor customs scene, amphorae, linen, timber, historically plausible people"
+    },
+    {
+      "text": "Beyond the docks, monumental temples rise above canals and crowded streets.",
+      "image": "temple district beside canals, ancient Egyptian architecture, human scale"
+    },
+    {
+      "text": "Priests and merchants move through a city shaped by both Egyptian tradition and Mediterranean trade.",
+      "image": "market and temple procession, diverse ancient traders, restrained documentary realism"
+    },
+    {
+      "text": "But the ground beneath the delta is unstable, and the sea is never far away.",
+      "image": "low delta shoreline, wet ground, subsidence cracks, ominous water"
+    },
+    {
+      "text": "Over centuries, earthquakes, subsidence, and rising water transform the coastline.",
+      "image": "partially flooded ancient waterfront, tilted stone blocks, stormy natural light"
+    },
+    {
+      "text": "Much of Heracleion eventually disappears beneath the Mediterranean.",
+      "image": "submerged ruins fading below coastal water, realistic archaeology"
+    },
+    {
+      "text": "Modern underwater archaeology reveals statues, inscriptions, anchors, and temple remains on the seabed.",
+      "image": "underwater archaeologists documenting colossal statue and stone ruins, realistic equipment"
+    },
+    {
+      "text": "A city once known to travelers became a lost world under water. What would you explore first?",
+      "image": "wide underwater ancient city remains, fish and shafts of light, no fantasy"
+    }
+  ]
+}
