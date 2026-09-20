@@ -1,0 +1,62 @@
+{
+  "format": "short",
+  "title": "POV: You Wake Up in Doggerland — The Lost Land Beneath the North Sea #shorts",
+  "hook_text": "THIS LAND IS NOW UNDER THE SEA",
+  "description": "Around 8,000 years ago, a vast inhabited landscape connected Britain to continental Europe. Today, much of Doggerland lies beneath the North Sea. This cinematic AI recreation imagines a day there based on archaeological and paleoenvironmental evidence.\n\n#history #doggerland #prehistory #archaeology #lostworlds #shorts",
+  "tags": [
+    "Doggerland",
+    "prehistoric Europe",
+    "lost worlds",
+    "archaeology",
+    "North Sea",
+    "Stone Age",
+    "history shorts",
+    "AI history"
+  ],
+  "voice_engine": "kokoro",
+  "voice": "af_heart",
+  "speed": 0.97,
+  "edge_voice": "en-US-AndrewMultilingualNeural",
+  "rate": "-3%",
+  "seed": 8200,
+  "music_volume": 0.1,
+  "image_style": "cinematic prehistoric documentary film still, photorealistic Mesolithic northern Europe, historically plausible clothing and tools, natural skin texture, cool misty atmosphere, soft dawn light, 35mm lens, realistic vegetation and wetlands, no modern objects, no fantasy, no text, no logo, no watermark",
+  "scenes": [
+    {
+      "text": "You wake up on a land that no longer exists. Today, it lies beneath the North Sea.",
+      "image": "first-person view waking beside a hide shelter at dawn, vast Mesolithic wetland plain, low mist, distant pine and birch woodland"
+    },
+    {
+      "text": "Eight thousand years ago, Britain was not yet an island. Rivers and marshes stretched toward continental Europe.",
+      "image": "high cinematic view across enormous prehistoric river valley and wetlands, winding channels, reed beds, herds in distance"
+    },
+    {
+      "text": "Your family follows the water, fishing, gathering plants, and hunting across a landscape rich with life.",
+      "image": "small Mesolithic family beside a river, woven fish traps, simple wooden spears, hide clothing, believable daily life"
+    },
+    {
+      "text": "There are no roads and no cities. Trails, rivers, smoke, and memory guide you home.",
+      "image": "human-scale forest trail through birch and pine, faint camp smoke beyond trees, person carrying gathered food"
+    },
+    {
+      "text": "But the sea is rising. Each generation watches familiar hunting grounds turn into marsh, then open water.",
+      "image": "flooded prehistoric grassland becoming tidal marsh, drowned tree trunks, worried people observing encroaching water"
+    },
+    {
+      "text": "Then disaster strikes the northern coast. A massive tsunami sends water far across low-lying land.",
+      "image": "distant wall of turbulent seawater entering a low prehistoric coastal plain, people running toward higher ground, documentary realism"
+    },
+    {
+      "text": "Doggerland does not vanish in a single day, but rising seas steadily transform the world its people knew.",
+      "image": "somber wide view of shrinking islands and flooded wetlands under storm-cleared sky, prehistoric shoreline"
+    },
+    {
+      "text": "Thousands of years later, fishermen and scientists recover bones, tools, and traces from beneath the North Sea.",
+      "image": "archaeological objects from prehistoric North Sea landscape arranged as documentary evidence, antler tool, flint, sediment, no labels"
+    },
+    {
+      "text": "A lost landscape is still down there. Would you have survived its changing world?",
+      "image": "cinematic underwater view above submerged ancient landscape contours, shafts of light, subtle ghostlike tree stumps, realistic not fantasy"
+    }
+  ]
+}
