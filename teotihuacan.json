@@ -1,0 +1,60 @@
+{
+  "format": "short",
+  "title": "POV: You Wake Up in Teotihuacan Before It Became History #shorts",
+  "hook_text": "YOU WAKE IN TEOTIHUACAN WHEN THE AVENUE OF THE DEAD IS CROWDED WITH LIFE.",
+  "description": "A cinematic AI-assisted reconstruction imagining Teotihuacan in Mexico as a living historical place, informed by archaeology and historical research. Visual details are interpretive reconstructions.\n\n#history #archaeology #lostworlds #shorts",
+  "tags": [
+    "Teotihuacan",
+    "archaeology",
+    "lost worlds",
+    "ancient history",
+    "history shorts",
+    "AI history"
+  ],
+  "voice_engine": "kokoro",
+  "voice": "af_heart",
+  "speed": 0.97,
+  "edge_voice": "en-US-AndrewMultilingualNeural",
+  "rate": "-3%",
+  "seed": 113781,
+  "music_volume": 0.1,
+  "image_style": "cinematic archaeological documentary reconstruction, photorealistic, historically plausible architecture clothing tools and environment, natural skin texture, atmospheric light, 35mm lens, realistic materials, no modern objects, no fantasy, no text, no logo, no watermark",
+  "scenes": [
+    {
+      "text": "You wake in Teotihuacan when the Avenue of the Dead is crowded with life.",
+      "image": "immersive first-person arrival in Teotihuacan, Mexico, historically plausible inhabitants, dawn"
+    },
+    {
+      "text": "This place is not a ruin yet. It is part of a living world of work, family, belief, and trade.",
+      "image": "busy everyday life in ancient Teotihuacan, craftspeople, families, historically plausible clothing"
+    },
+    {
+      "text": "Stone, timber, earth, and human labor shape everything around you.",
+      "image": "close documentary view of construction and craftsmanship in Teotihuacan, authentic materials and tools"
+    },
+    {
+      "text": "Food and goods move through paths, courtyards, workshops, and gathering places.",
+      "image": "market and food preparation scene in Teotihuacan, realistic archaeological reconstruction"
+    },
+    {
+      "text": "The people here understand their landscape in ways that will later survive only in traces.",
+      "image": "inhabitants navigating landscape around Teotihuacan, water, vegetation, routes, documentary realism"
+    },
+    {
+      "text": "Power and belief are visible in the architecture, objects, and rituals of daily life.",
+      "image": "monumental architecture and restrained ceremonial activity at Teotihuacan, no fantasy"
+    },
+    {
+      "text": "Centuries of change will transform this place through politics, climate, conflict, migration, or abandonment.",
+      "image": "cinematic changing weather over Teotihuacan, subtle sense of historical transition, realistic"
+    },
+    {
+      "text": "Archaeology will later recover fragments of this world and reconstruct parts of its story.",
+      "image": "archaeological excavation evidence from Teotihuacan, artifacts and architecture, documentary photography"
+    },
+    {
+      "text": "Now imagine standing here before it became history. What would surprise you most?",
+      "image": "final sweeping cinematic view of living Teotihuacan at golden hour, historically plausible, no modern objects"
+    }
+  ]
+}
